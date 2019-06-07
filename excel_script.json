@@ -1,0 +1,38 @@
+{
+"preferred_columns" :["TESTName","Performance_Min", "Performance_Max",
+       "Performance_Average", "Performance_Median"] ,
+
+"numeric_columns" : ["Performance_Min", "Performance_Max","Performance_Average", "Performance_Median"] ,
+"columns_to_be_compared" : ["Performance_Min", "Performance_Max","Performance_Average", "Performance_Median"] ,
+"excel_file_name_prefix" : "Generated_performace_report" ,
+"Folder_1" : "1_New_logs" ,
+"Folder_2" : "2_Old_logs" ,
+"Allow_Split_of_Performance_AllResults" : true ,
+"compared_excel_colums" :   [ "NEW['TESTName']",
+                                   "NEW['Performance_Min']" ,
+                                   "NEW['Performance_Max']" ,
+                                   "NEW['Performance_Average']" ,
+                                   "NEW['Performance_Median']" ,
+                                   "OLD['Performance_Min']" ,
+                                   "DIFF['Performance_Min']",
+                                   "OLD['Performance_Max']" ,
+                                   "DIFF['Performance_Max']",
+                                   "OLD['Performance_Average']" ,
+                                   "DIFF['Performance_Average']",
+                                   "OLD['Performance_Median']",
+                                   "DIFF['Performance_Median']"
+                                   ],
+
+
+"__comment":["FieldName1", "FieldName2", "FieldName3", "FieldName4",
+       "FieldName5", "FieldName6", "FieldName7", "FieldValue1",
+       "FieldValue2", "FieldValue3", "FieldValue4", "FieldValue5",
+       "STBType", "Site", "SoftwareVersion", "Iterations", "ExpDur",
+       "Validated", "SuccessfulIterations", "Comments", "FieldValue6",
+       "FieldValue7", "Performance_Min", "Performance_Max",
+       "Performance_Average", "Performance_Median",
+       "Performance_AllResults", "OSBuildNumber", "OperatingSystem",
+       "OSServicePack", "IEXNumber", "TESTName", "Host", "ExecDate",
+       "ExecTime", "Duration" ]
+
+}
