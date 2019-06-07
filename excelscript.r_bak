@@ -1,3 +1,5 @@
+# very early script written in r. 
+
 args = commandArgs(trailingOnly=TRUE)
 ##getwd()
 ##setwd("C:/Users/chkiran/Documents/res")
